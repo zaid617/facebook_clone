@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+}
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100px ;
+    width: 300px;
+}
+#heading img{
+    width: 350px;
+
+}
+.form{
+    box-shadow: 0px 0px 26px 1px grey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 540px;
+    border-radius: 8px;
+    padding: 8px;
+    
+}
+.num{
+    width: 99%;
+    height: 30px;
+}
+.first{
+    width: 99.12%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.first span{
+    width: 219px;
+}
+.text{
+    display: flex;
+    height: 30px;
+    width: 99%;
+    
+
+}
+.dob select{
+    width: 150px;
+    height: 30px;
+}
+.main p {
+    display: flex;
+    width: 100%;
+}
+#gender{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#gender div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 7px;
+    justify-content: space-between;
+}
+#gender span{
+    width: 138px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.para  {
+    display: flex;
+    text-align: justify;
+    width: 450px;
+    padding: 2px;
+    font-weight: lighter;
+}
+.date{
+    width: 100%;
+    
+}
+.btn{
+    width: 190px;
+    height: 40px;
+    background-color: #00a400;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+#color{
+    color: black;
+}
+h3 a{
+    text-decoration: none;
+    font-weight: 400;
+
+}
