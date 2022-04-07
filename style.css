@@ -43,6 +43,25 @@
     border-radius: 8px;
     padding: 8px;
     
+}.form3{
+    box-shadow: 0px 0px 26px 1px grey;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    height:300px;
+    border-radius: 8px;
+    padding: 8px;
+    
+}
+.button{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+.form3 p{
+    width: 400px;
 }
 .signin{
     width: 400px;
@@ -120,6 +139,7 @@
     width: 190px;
     height: 40px;
     background-color: #00a400;
+    border: 0.1px solid #00a400;
     border-radius: 7px;
     color: white;
     font-weight: bold;
@@ -128,6 +148,7 @@
     width: 400px;
     height: 50px;
     background-color: #1877f2;
+    border: 0.1px solid #1877f2 ;
     border-radius: 7px;
     color: white;
     font-weight: bold;
@@ -147,6 +168,90 @@ h4{
 }
 .for a{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
+    color: #1877f2;
 
+
+}
+.navbar{
+    display: flex;
+    height: 50px;
+    align-items: center;
+
+
+
+}
+.logo{
+    height: 35px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+}
+.forget{
+    width: 210px;
+    height: 30px;
+}
+.btn3{
+    width: 80px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #1877f2;
+    color: white;
+    font-weight: 600;
+    margin-right: 5px;
+    border: 0.1px solid #1877f2 ;
+}.btn4{
+    width: 80px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #d9dce2;
+    color: white;
+    font-weight: 600;
+    margin-right: 5px;
+    border: 0.1px solid #d9dce2 ;
+    cursor: pointer;
+}#btn{
+    width: 80px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #edeef1;
+    color: white;
+    font-weight: 600;
+    margin-right: 5px;
+    border: 0.1px solid #d9dce2 ;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #1877f2;
+    cursor: pointer;
+}
+.login{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+    
+}
+.login input{
+    border-radius: 8px;
+    padding-left: 5px;
+    margin-right: 5px;
+}
+.section{
+    background-color: #e9ebee;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pre{
+    width: 500px;
+    height: 300px;
+    border: 2px solid grey;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
