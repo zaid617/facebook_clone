@@ -33,6 +33,24 @@
     border-radius: 8px;
     padding: 8px;
     
+}.form2{
+    box-shadow: 0px 0px 26px 1px grey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height:300px;
+    border-radius: 8px;
+    padding: 8px;
+    
+}
+.signin{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.1px solid grey;
+    padding-left: 4px;
+    
 }
 .num{
     width: 99%;
@@ -106,12 +124,29 @@
     color: white;
     font-weight: bold;
     font-size: 22px;
+}.btn2{
+    width: 400px;
+    height: 50px;
+    background-color: #1877f2;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
 }
 #color{
     color: black;
 }
 h3 a{
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 450;
+
+}
+h4{
+    font-weight: 500;
+    font-size: 28px;
+}
+.for a{
+    text-decoration: none;
+    font-size: 16px;
 
 }
