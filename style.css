@@ -145,6 +145,7 @@
     color: white;
     font-weight: bold;
     font-size: 22px;
+    cursor: pointer;
 }.btn2{
     width: 400px;
     height: 50px;
@@ -154,6 +155,7 @@
     color: white;
     font-weight: bold;
     font-size: 22px;
+    cursor: pointer;
 }
 #color{
     color: black;
@@ -201,6 +203,7 @@ h4{
     font-weight: 600;
     margin-right: 5px;
     border: 0.1px solid #1877f2 ;
+    cursor: pointer;
 }.btn4{
     width: 80px;
     height: 35px;
@@ -255,4 +258,8 @@ h4{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+} 
+.btn , .btn2 , .btn3 ,.btn4 {
+    fomt-weight:bolder;
 }
+    
